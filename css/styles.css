@@ -2807,8 +2807,8 @@ img.u-pull-left {
 .text-pretitle {
     font-family    : var(--font-2);
     font-size      : var(--text-size);
-    font-weight    : 600;
-    color          : var(--color-black);
+    font-weight    : 400;
+    color          : var(--color-burgundy);
     text-transform : uppercase;
     letter-spacing : .2em;
     margin-top     : 0;
@@ -2817,13 +2817,13 @@ img.u-pull-left {
 }
 
 .text-display-title {
-    --text-display-title-size : 6rem;
+    --text-display-title-size : 4rem;
     --text-multiplier         : 1;
     font-family               : var(--font-1);
     font-size                 : calc(var(--text-display-title-size) * var(--text-multiplier));
     font-weight               : 500;
     line-height               : 1.2667;
-    color                     : black;
+    color                     : var(--color-burgundy);
     margin-top                : 0;
 }
 
@@ -2907,7 +2907,7 @@ img.u-pull-left {
 }
 
 .s-header__logo img {
-    width          : 40px;
+    width          : 80px;
     margin         : 0;
     vertical-align : bottom;
 }
@@ -3141,7 +3141,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-intro {
-    background-color : var(--color-preloader-bg);
+    background-color : #F5F4E7;
     width            : 100%;
     height           : 100vh;
     min-height       : calc(25.5 * var(--space));
@@ -3443,14 +3443,14 @@ img.u-pull-left {
 }
 
 .s-about__desc {
-    font-weight : 500;
+    font-weight : 400;
     font-size   : calc(var(--text-desc-size) * var(--text-multiplier));
     line-height : 1.5385;
     margin-top  : var(--vspace-1_5);
 }
 
 .s-about__desc span {
-    color : var(--color-2);
+    color : var(--color-burgundy);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3538,6 +3538,7 @@ img.u-pull-left {
     background-position : center;
     background-size     : cover;
     color: black;
+    
 }
 
 .s-services__bg::before {
@@ -3580,6 +3581,7 @@ img.u-pull-left {
 .service-item h3 {
     margin-top    : 0;
     margin-bottom : var(--vspace-0_5);
+    text-decoration: underline;
     color         : black;
 }
 
@@ -3645,7 +3647,7 @@ img.u-pull-left {
 }
 
 .s-portfolio__header {
-    background-color : #111111;
+    background-color : #F5F4E7;
     padding-top      : var(--vspace-5);
     padding-bottom   : calc(6.5 * var(--space));
 }
